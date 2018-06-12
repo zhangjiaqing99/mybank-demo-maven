@@ -8,8 +8,9 @@ public class MyControllerTest {
 
 	@Test
 	public void testCase1() throws Exception{
+		System.out.println("Hello word");
 		
-		DataService m = new DataService();
+		/* DataService m = new DataService();
 		
 		m.setDatebaseIp("192.168.172.143");
 		m.setDatebasePort("3306");
@@ -21,7 +22,7 @@ public class MyControllerTest {
 		
 		for(Office o : list){
 			System.out.println(o.getCountry() + ":" + o.getCity() );
-		}
+		} */
 		
 	}
 	
